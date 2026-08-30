@@ -1,25 +1,212 @@
-# TCM Guide: Health & Longevity — Support
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support & Information — TCM Book Of Knowledge</title>
+  <style>
+    :root {
+      --bg-color: #F6F3EB;
+      --card-bg: #FFFFFF;
+      --text-color: #333333;
+      --muted-text: #666666;
+      --accent-color: #C06043;
+      --accent-light: #E8F0EC;
+    }
+    
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
 
-## Contact Us
-For any questions, feedback, or issues: support@vitalitytcm.health
-(We respond within 3 business days)
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 10%;
+    }
 
-## Frequently Asked Questions
+    .logo {
+      font-size: 1.25rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
 
-**Q: Can I use this app as medical advice?
-No. All content is for educational purposes only and does not constitute diagnosis, treatment, or medical advice. Please consult a qualified healthcare professional for health concerns.
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: var(--text-color);
+    }
 
-**Q: How does the AI Guide work?**
-A: The AI provides responses based on Traditional Chinese Medicine theory. It's for educational purposes only — always consult a practitioner for health decisions.
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
 
-**Q: How do I cancel my subscription?**
-A: Subscriptions are managed through your Apple ID. Go to Settings → Apple ID → Subscriptions to cancel anytime.
+    .badge {
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 1px;
+      font-weight: bold;
+      color: var(--muted-text);
+    }
 
-**Q: What if I have a feature suggestion?**
-A: We love hearing from you! Email us at support@[yourdomain].com or use the feedback form in the app.
+    h1 {
+      font-family: Georgia, serif;
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+    }
 
-**Q: Is my health data stored?**
-A: We do not collect health records, medical diagnoses, or any sensitive health data. See our Privacy Policy for details.
+    .hero p {
+      color: var(--muted-text);
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+    }
 
-## About This App
-TCM Guide: Health & Longevity is developed by Adrian, an independent creator passionate about sharing Traditional Chinese Medicine knowledge for educational purposes.
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .btn-primary {
+      background-color: #2D3748;
+      color: white;
+    }
+
+    .btn-secondary {
+      background-color: white;
+      color: var(--text-color);
+      border: 1px solid #E2E8F0;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+      text-align: center;
+    }
+
+    h2 {
+      font-family: Georgia, serif;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .faq-item {
+      background-color: var(--card-bg);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .about-card {
+      background-color: #EFECE4;
+      border-left: 4px solid #4A6B5D;
+      padding: 2rem;
+      border-radius: 8px;
+      text-align: left;
+    }
+
+    .contact-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--accent-color);
+      color: white;
+      padding: 0.85rem 1.75rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      margin-top: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.875rem;
+      color: var(--muted-text);
+      border-top: 1px solid #E5E0D8;
+    }
+
+    footer a {
+      color: var(--muted-text);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">🌿 TCMBOK</div>
+    <nav>
+      <a href="#faq">FAQ</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="badge">Support Centre</div>
+      <h1>TCM Book Of Knowledge (TCMBOK)</h1>
+      <p><strong>Support & Information</strong><br>Everything you need to get the most from your TCM learning journey.</p>
+      <div class="btn-group">
+        <a href="#faq" class="btn btn-primary">Browse FAQs</a>
+        <a href="#about" class="btn btn-secondary">About the App</a>
+        <a href="#contact" class="btn btn-secondary">Contact Support</a>
+      </div>
+    </div>
+
+    <section id="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item"><span>Can I use this app as medical advice?</span> <span>∨</span></div>
+      <div class="faq-item"><span>How reliable is the AI assistant?</span> <span>∨</span></div>
+      <div class="faq-item"><span>Is the content updated regularly?</span> <span>∨</span></div>
+      <div class="faq-item"><span>How do I cancel my subscription?</span> <span>∨</span></div>
+      <div class="faq-item"><span>What if I have a feature suggestion?</span> <span>∨</span></div>
+      <div class="faq-item"><span>Is my health data stored?</span> <span>∨</span></div>
+    </section>
+
+    <section id="about">
+      <h2>About This App</h2>
+      <div class="about-card">
+        <p>TCM Book Of Knowledge is developed by Adrian, an independent creator passionate about sharing Traditional Chinese Medicine knowledge for educational purposes.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <p>Have a question not covered above? We're here to help.</p>
+      <a href="mailto:support@balancewithtcm.com" class="contact-btn">
+        ✉ support@balancewithtcm.com
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></p>
+    <p>© 2026 TCM Book Of Knowledge. All rights reserved.</p>
+    <p><small>All content is for educational purposes only and does not constitute medical advice.</small></p>
+  </footer>
+
+</body>
+</html>
